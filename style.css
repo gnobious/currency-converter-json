@@ -1,12 +1,18 @@
+* {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     text-align: center;
 }
+
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     text-align: center;
-    color: brown;
+    color: rgb(119,119,119);
+    margin: 50px auto 0;
 }
+
 .currency {
     padding-top: 50px;
     display: inline-flex;
@@ -14,16 +20,21 @@ p {
     width: 550px;
     justify-content: center;
 }
+
 label {
     padding: 0px 12px;
     width: 158px;
     height: 52px;
     font-size: 48px;
-    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    background-color: #16b67f;
     border: none;
     border-radius: 10px 0 0 10px;
 }
-input {
+
+input {    
+    outline: none;
+    color: rgb(119,119,119);
     width: 350px;
     height: 46px;    
     padding-left: 12px;
@@ -31,6 +42,15 @@ input {
     margin-bottom: 20px;
     vertical-align: middle;
 }
+
+input:focus {
+    border-color: #16b67f;
+}
+
+input:active {
+    border-color: #16b67f;
+}
+
 img {
     margin-right: 10px;
 }
