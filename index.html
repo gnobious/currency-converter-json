@@ -2,20 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico">
     <title>Currency converter</title>
 </head>
     <body>
-        <p>Currency converter</p>
+        <header class="header_wrapper">
+            <div class="logo_position"><img src="img/logo.png" class="c_logo"></img></div>
+            <div class="header_wrapper_descr"><div>urrency</div><div>onverter</div></div>
+        </header>
         <div class="currency">
-            <label for="usd"><img src="img/usd.jpg">USD</label>
-            <input type="text" id="usd">
-            <label for="eur"><img src="img/eur.jpg">EUR</label>
-            <input type="text" id="eur">
-            <label for="rub"><img src="img/rub.jpg">RUB</label>
-            <input type="text" id="rub">
+            <div class="currency_wrapper">
+                <label for="usd"><img src="img/usd.jpg"><i class="currency_code">USD</i></label>
+                <i class="currency_symbol">$</i>
+                <input type="text" id="usd">
+            </div>
+            
+            <div class="currency_wrapper">
+                <label for="eur"><img src="img/eur.jpg"><i class="currency_code">EUR</i></label>
+                <i class="currency_symbol">€</i>
+                <input type="text" id="eur">
+            </div>
+            <div class="currency_wrapper">
+                <label for="rub"><img src="img/rub.jpg"><i class="currency_code">RUB</i></label>
+                <i class="currency_symbol">₽</i>
+                <input type="text" id="rub">
+            </div>
+            <div class="currency_wrapper">
+                <label for="gbp"><img src="img/gbp.jpg"><i class="currency_code">GBP</i></label>
+                <i class="currency_symbol">£</i>
+                <input type="text" id="gbp">
+            </div>
+            <div class="currency_wrapper">
+                <label for="jpy"><img src="img/jpy.jpg"><i class="currency_code">JPY</i></label>
+                <i class="currency_symbol">¥</i>
+                <input type="text" id="jpy">
+            </div>
+            <div class="currency_wrapper">
+                <label for="chf"><img src="img/chf.jpg"><i class="currency_code">CHF</i></label>
+                <i class="currency_symbol">₣</i>
+                <input type="text" id="chf">
+            </div>
         </div> 
         
         <script src="js/script.js"></script>
