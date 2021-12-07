@@ -14,7 +14,7 @@ In  this  project i practice:
 
 ## Demo 🎥
 
-The completed project can be viewed [here](https://gnobious.github.io/currency-converter-json/ "demo url")
+The completed project can be viewed [here](https://rimerian.github.io/currency-converter-json/ "demo url")
 
 ## How to Use 🔧
 
